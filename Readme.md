@@ -23,7 +23,7 @@ A small full-stack app with login/register, a tweet-style dashboard (140 chars),
 
 ## Repository Structure
 ```
-project-root/
+geo-tweet/
 ├─ docker-compose.yml
 ├─ .env
 ├─ backend/
@@ -43,12 +43,13 @@ project-root/
 
 ## Prerequisites
 - Docker & Docker Compose
-
+(https://docs.docker.com/get-started/get-docker/)
 ---
 
-## Quickstart
+## Quickstart (OS Ubuntu Server)
 ```bash
-docker compose up --build -d
+git clone https://github.com/faizalprbw/geotweet-lcdi.git
+docker compose up -d --build
 ```
 Access:
 - Frontend: http://localhost:5173
@@ -98,6 +99,12 @@ NOMINATIM_EMAIL=you@example.com
 - **Map**: Frontend loads `GET /api/posts.geojson` and renders with Leaflet.
 - **Deep link**: Dashboard’s 📍 links to `/map?focus=<id>`, Map reads it and flies to the point.
 
+## Diagrams
+### ERD
+gambar erd
+
+### Business Process Flow
+gambar flow chart
 ---
 
 ## API Summary
