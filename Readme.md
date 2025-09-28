@@ -101,10 +101,11 @@ NOMINATIM_EMAIL=you@example.com
 
 ## Diagrams
 ### ERD
-gambar erd
+<img width="277" height="407" alt="image" src="https://github.com/user-attachments/assets/000c50f7-b3de-481f-b302-87192322b1f0" />
 
 ### Business Process Flow
-gambar flow chart
+<img width="593" height="1168" alt="image" src="https://github.com/user-attachments/assets/c89063f3-6a85-4012-a413-3f3205a8d0ca" />
+
 ---
 
 ## API Summary
